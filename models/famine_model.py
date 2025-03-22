@@ -1,6 +1,6 @@
 from typing import List, Tuple
-from hcp_backend.schemas.prediction import FamineRequest, FamineResponse
-from hcp_backend.utils.logger import log_prediction, log_error
+from schemas.prediction import FamineRequest, FamineResponse
+from utils.logger import log_prediction, log_error
 
 class FamineModel:
     # Define weights for different factors (can be adjusted based on domain expertise)
