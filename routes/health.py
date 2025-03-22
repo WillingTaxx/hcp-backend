@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from hcp_backend.utils.logger import logger
+from utils.logger import logger
 
 router = APIRouter(tags=["health"])
 
