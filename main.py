@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from hcp_backend.routes import health, predictions
+from routes import health, predictions
 from hcp_backend.utils.logger import logger, log_error
 
 # Initialize FastAPI app
