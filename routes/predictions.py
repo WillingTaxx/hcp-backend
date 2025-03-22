@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from hcp_backend.models.famine_model import FamineModel
-from hcp_backend.schemas.prediction import FamineRequest, FamineResponse
-from hcp_backend.utils.logger import logger, log_error
+from models.famine_model import FamineModel
+from schemas.prediction import FamineRequest, FamineResponse
+from utils.logger import logger, log_error
 
 router = APIRouter(tags=["predictions"])
 
